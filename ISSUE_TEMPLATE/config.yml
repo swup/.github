@@ -1,0 +1,7 @@
+contact_links:
+  - name: Discussions
+    url: https://github.com/swup/swup/discussions
+    about: Join the discussion and get help by other users.
+  - name: Open Collective
+    url: https://opencollective.com/swup
+    about: If you love swup, consider supporting us via Open Collective.
