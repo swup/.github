@@ -21,7 +21,11 @@ A clear and concise description of what the bug is.
 **How to reproduce the issue**
 
 <!--
-Please provide a link to a repo or REPL that can reproduce the problem you ran into. Alternatively, describe a precise set of steps to follow to reproduce the issue.
+Please provide a link to a repo or test case that can reliably reproduce the issue.
+
+Feel free to use and fork this CodeSandbox template:
+https://codesandbox.io/s/swup-test-case-template-6ci5si
+
 -->
 
 **Context and environment**
