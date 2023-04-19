@@ -1,0 +1,23 @@
+name: Dispatcher
+on:
+  push:
+    branches: [master]
+
+jobs:
+  dispatch:
+    name: Dispatch
+    env:
+      PACKAGES_TO_UPGRADE: ${{ needs.run_publish.outputs.packages }}
+    if: contains(fromJSON("['swup/body-class-plugin', 'swup/gtm-plugin', 'swup/scripts-plugin', 'swup/scroll-plugin', 'swup/js-plugin', 'swup/debug-plugin', 'swup/matomo-plugin', 'swup/a11y-plugin', 'swup/progress-plugin', 'swup/preload-plugin', 'swup/head-plugin', 'swup/ga-plugin', 'swup/froms-plugin', 'swup/route-name-plugin', 'swup/gia-plugin', 'swup/livewire-plugin', 'swup/custom-payload-plugin', 'swup/recaptcha-plugin']"), github.repository)
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        repo: ['swup/docs']
+    timeout-minutes: 5
+    steps:
+      - name: Dispatch to workflows
+        run: |
+            curl -H "Accept: application/vnd.github.everest-preview+json" \
+            -H "Authorization: token ${{ secrets.GH_TOKEN }}" \
+            --request POST \
+            --data '{"event_type": "redeploy_docs", "client_payload": {}}' https://api.github.com/repos/${{ matrix.repo }}/dispatches
