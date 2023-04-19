@@ -2,6 +2,7 @@ name: Dispatcher
 on:
   push:
     branches: [master]
+  workflow_call:
 
 jobs:
   dispatch:
