@@ -1,13 +1,11 @@
 name: Dispatcher
 on:
-  push:
-    branches: [master]
   workflow_call:
 
 jobs:
   dispatch:
     name: Dispatch
-    if: contains(fromJSON("['swup/body-class-plugin', 'swup/gtm-plugin', 'swup/scripts-plugin', 'swup/scroll-plugin', 'swup/js-plugin', 'swup/debug-plugin', 'swup/matomo-plugin', 'swup/a11y-plugin', 'swup/progress-plugin', 'swup/preload-plugin', 'swup/head-plugin', 'swup/ga-plugin', 'swup/forms-plugin', 'swup/route-name-plugin', 'swup/gia-plugin', 'swup/livewire-plugin', 'swup/custom-payload-plugin', 'swup/recaptcha-plugin']"), github.repository)
+    if: contains(fromJSON('["swup/body-class-plugin", "swup/gtm-plugin", "swup/scripts-plugin", "swup/scroll-plugin", "swup/js-plugin", "swup/debug-plugin", "swup/matomo-plugin", "swup/a11y-plugin", "swup/progress-plugin", "swup/preload-plugin", "swup/head-plugin", "swup/ga-plugin", "swup/forms-plugin", "swup/route-name-plugin", "swup/gia-plugin", "swup/livewire-plugin", "swup/custom-payload-plugin", "swup/recaptcha-plugin"]'), github.repository)
     runs-on: ubuntu-latest
     strategy:
       matrix:
