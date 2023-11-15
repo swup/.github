@@ -7,9 +7,8 @@ body:
       value: |
         ### Thanks for taking the time to fill out this bug report! 🏓
 
-        IMPORTANT: If you're having trouble reloading JavaScript code after swup transitions, please refer to the below discussion to get help. This topic is always a problem with a particular setup rather than with swup itself, so any issues with this topic will be closed right away.
+        **Important**: If you're having trouble reloading JavaScript code after swup transitions, please refer to [the related docs entry](https://swup.js.org/getting-started/reloading-javascript/) for help. This topic is always a problem with a particular setup rather than with swup itself, so any issues with this topic will be **closed right away**.
 
-        https://github.com/swup/swup/discussions/334
   - type: textarea
     id: what-did-you-expect
     attributes:
