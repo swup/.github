@@ -1,6 +1,6 @@
 name: 💡 Feature Ideas
 description: Share ideas for new features
-title: ""
+title: "Feature Idea: "
 body:
   - type: markdown
     attributes:
