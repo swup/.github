@@ -60,7 +60,6 @@ body:
     id: terms
     attributes:
       label: Checked all these? 📚
-      description: By submitting this issue, you agree to follow our
       options:
         - label: I have read and searched the [official docs](https://swup.js.org)
           required: true
