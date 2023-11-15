@@ -48,7 +48,7 @@ body:
       render: shell
   - type: input
     attributes:
-      label: URL for reduced test case
+      label: URL to reduced test case
   - type: checkboxes
     id: terms
     attributes:
