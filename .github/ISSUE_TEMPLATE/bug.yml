@@ -28,7 +28,6 @@ body:
       value: |
         - swup:
         - ...
-      default: 0
     validations:
       required: true
   - type: dropdown
