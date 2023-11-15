@@ -6,14 +6,14 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: markdown
+  - type: textarea
     id: what-did-you-expect
     attributes:
       label: What did you expect?
       placeholder: Tell us what you expected!
     validations:
       required: true
-  - type: markdown
+  - type: textarea
     id: what-happened
     attributes:
       label: What actually happened?
