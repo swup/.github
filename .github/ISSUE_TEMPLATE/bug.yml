@@ -7,7 +7,7 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: textarea
-    id: what-happened
+    id: what-did-you-expect
     attributes:
       label: What did you expect?
       placeholder: Tell us what happened!
