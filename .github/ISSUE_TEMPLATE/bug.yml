@@ -6,19 +6,18 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: textarea
+  - type: markdown
     id: what-did-you-expect
     attributes:
       label: What did you expect?
-      placeholder: Tell us what happened!
-      value: "A bug happened!"
+      placeholder: Tell us what you expected!
     validations:
       required: true
-  - type: textarea
+  - type: markdown
     id: what-happened
     attributes:
       label: What actually happened?
-      placeholder: "Tell us what you see!"
+      placeholder: Tell us what you see!
     validations:
       required: true
   - type: dropdown
