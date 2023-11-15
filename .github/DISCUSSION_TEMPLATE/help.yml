@@ -25,6 +25,8 @@ body:
   - type: input
     attributes:
       label: URL to reduced test case 🔗
+    validations:
+      required: true
   - type: checkboxes
     id: terms
     attributes:
