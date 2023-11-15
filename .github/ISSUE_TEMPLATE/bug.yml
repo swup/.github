@@ -54,3 +54,7 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
+        - label: I have checked discussions and closed issues for related problems
+          required: true
+        - label: I have provided all necessary information to the best of my knowledge
+          required: true
