@@ -1,0 +1,38 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Hey there 🏓 Before you ask a question here:
+
+        - Please make sure you have browsed our [docs](https://swup.js.org)
+        - Please make sure you read our [Code of Conduct](https://github.com/swup/.github/blob/master/CODE_OF_CONDUCT.md)
+        - Make sure to check [discussions](https://github.com/orgs/swup/discussions) and [existing issues](https://github.com/issues?q=is:issue+org:swup). It's very likely there already is an answer waiting for you somewhere out there :)
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe your problem 🧐
+      placeholder: Please provide a clear and concise description of the problem you are having.
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: What is your question? 🤷‍♀️
+      placeholder: Please be as clear as possible
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checked all these? 📚
+      options:
+        - label: I have read and searched the [official docs](https://swup.js.org)
+          required: true
+        - label: I have checked [discussions](https://github.com/orgs/swup/discussions) and [existing issues](https://github.com/issues?q=is:issue+org:swup) for related problems
+          required: true
+        - label: I agree to follow this project's [Code of Conduct](https://github.com/swup/.github/blob/master/CODE_OF_CONDUCT.md)
+          required: true
+        - label: I have provided all necessary information to the best of my knowledge
+          required: true
+
