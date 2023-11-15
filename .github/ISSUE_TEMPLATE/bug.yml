@@ -20,14 +20,14 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
-  - type: dropdown
+  - type: textarea
     id: version
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+      label: Swup and plugin versions
+      description: What versions of swup and plugins are you running?
+      value: |
+        - swup:
+        - ...
       default: 0
     validations:
       required: true
