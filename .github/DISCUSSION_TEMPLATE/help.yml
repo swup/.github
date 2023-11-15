@@ -22,6 +22,9 @@ body:
       placeholder: Please be as clear as possible
     validations:
       required: true
+  - type: input
+    attributes:
+      label: URL to reduced test case 🔗
   - type: checkboxes
     id: terms
     attributes:
