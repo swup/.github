@@ -9,9 +9,9 @@ body:
 
         - Please make sure you read our [Code of Conduct](https://github.com/swup/.github/blob/master/CODE_OF_CONDUCT.md)
 
-        - Make sure to check [discussions](https://github.com/orgs/swup/discussions) and [existing issues](https://github.com/issues?q=is:issue+org:swup) for related problems before proceeding
+        - Make sure to check [discussions](https://github.com/orgs/swup/discussions) and [existing issues](https://github.com/issues?q=is:issue+org:swup). Maybe your problem was already solved :)
 
-        - If you're having trouble reloading JavaScript code after swup transitions, please refer to [the related docs entry](https://swup.js.org/getting-started/reloading-javascript/) for help. This topic is always a problem with a particular setup rather than with swup itself, so any issues with this topic will be **closed right away**
+        - **If you're having trouble reloading JavaScript** after swup transitions, please refer to the docs about [reloading JavaScript](https://swup.js.org/getting-started/reloading-javascript/) and [common issues](https://swup.js.org/getting-started/common-issues/). This topic is always a problem with a particular setup rather than with swup itself, so any issues with this topic will be **closed right away**
 
   - type: textarea
     id: what-did-you-expect
@@ -67,4 +67,6 @@ body:
         - label: I have checked [discussions](https://github.com/orgs/swup/discussions) and [existing issues](https://github.com/issues?q=is:issue+org:swup) for related problems
           required: true
         - label: I have provided all necessary information to the best of my knowledge
+          required: true
+        - label: I have read and searched the [official docs](https://swup.js.org)
           required: true
