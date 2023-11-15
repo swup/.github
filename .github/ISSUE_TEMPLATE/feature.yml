@@ -40,6 +40,8 @@ body:
         - Nice to have
         - Would make my life a lot easier
         - I cannot use swup without it
+    validations:
+      required: true
   - type: checkboxes
     id: terms
     attributes:
