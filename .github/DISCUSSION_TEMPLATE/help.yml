@@ -25,6 +25,7 @@ body:
   - type: input
     attributes:
       label: URL to reduced test case 🔗
+      description: You can create one by forking one of our [demos on replit](https://replit.com/@swupjs)
     validations:
       required: true
   - type: checkboxes
