@@ -29,7 +29,7 @@ body:
       options:
         - label: I have read and searched the [official docs](https://swup.js.org)
           required: true
-        - label: I have checked [discussions](https://github.com/orgs/swup/discussions) and [existing issues](https://github.com/issues?q=is:issue+org:swup) for related problems
+        - label: I have checked [discussions](https://github.com/orgs/swup/discussions) and [existing issues](https://github.com/issues?q=is:issue+org:swup) for answers to my question
           required: true
         - label: I agree to follow this project's [Code of Conduct](https://github.com/swup/.github/blob/master/CODE_OF_CONDUCT.md)
           required: true
