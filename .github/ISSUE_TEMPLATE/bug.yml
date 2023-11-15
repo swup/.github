@@ -62,11 +62,12 @@ body:
       label: Checked all these? 📚
       description: By submitting this issue, you agree to follow our
       options:
-        - label: I agree to follow this project's [Code of Conduct](https://github.com/swup/.github/blob/master/CODE_OF_CONDUCT.md)
+        - label: I have read and searched the [official docs](https://swup.js.org)
           required: true
         - label: I have checked [discussions](https://github.com/orgs/swup/discussions) and [existing issues](https://github.com/issues?q=is:issue+org:swup) for related problems
           required: true
+        - label: I agree to follow this project's [Code of Conduct](https://github.com/swup/.github/blob/master/CODE_OF_CONDUCT.md)
+          required: true
         - label: I have provided all necessary information to the best of my knowledge
           required: true
-        - label: I have read and searched the [official docs](https://swup.js.org)
-          required: true
+
