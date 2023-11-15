@@ -11,7 +11,9 @@ body:
 
         - Please make sure you read our [Code of Conduct](https://github.com/swup/.github/blob/master/CODE_OF_CONDUCT.md)
 
-        - If you're having trouble reloading JavaScript code after swup transitions, please refer to [the related docs entry](https://swup.js.org/getting-started/reloading-javascript/) for help. This topic is always a problem with a particular setup rather than with swup itself, so any issues with this topic will be **closed right away**.
+        - Make sure to check [discussions](https://github.com/orgs/swup/discussions) and [existing issues](https://github.com/issues?q=is:issue+org:swup) for related problems before proceeding
+
+        - If you're having trouble reloading JavaScript code after swup transitions, please refer to [the related docs entry](https://swup.js.org/getting-started/reloading-javascript/) for help. This topic is always a problem with a particular setup rather than with swup itself, so any issues with this topic will be **closed right away**
 
   - type: textarea
     id: what-did-you-expect
