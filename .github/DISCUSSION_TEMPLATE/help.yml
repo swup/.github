@@ -4,9 +4,9 @@ body:
       value: |
         ### 👋 Hey there! Before you ask your question:
 
-        - Please make sure you have browsed our [docs](https://swup.js.org)
-        - Please make sure you read our [Code of Conduct](https://github.com/swup/.github/blob/master/CODE_OF_CONDUCT.md)
-        - Make sure to check [discussions](https://github.com/orgs/swup/discussions) and [existing issues](https://github.com/issues?q=is:issue+org:swup). It's very likely there already is an answer waiting for you somewhere out there :)
+        - ✅ Please make sure you have browsed our [docs](https://swup.js.org)
+        - ✅ Please make sure you read our [Code of Conduct](https://github.com/swup/.github/blob/master/CODE_OF_CONDUCT.md)
+        - ✅ Make sure to check [discussions](https://github.com/orgs/swup/discussions) and [existing issues](https://github.com/issues?q=is:issue+org:swup). It's very likely there already is an answer waiting for you somewhere out there :)
 
   - type: textarea
     id: description
