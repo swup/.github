@@ -54,7 +54,7 @@ body:
   - type: input
     attributes:
       label: URL to minimal reproduction 🔗
-      description: Fork one of our demos on [Replit](https://replit.com/@swupjs) or [CodeSandbox](https://codesandbox.io/p/devbox/swup-4-minimal-reproduction-template-n6kgnp) and try to reproduce the problem. **A minimal reproduction is required** so that others can help debug your issue. If a report is too vague it may be closed. [Learn more](https://swup.js.org/other/minimal-reproductions/)
+      description: Fork one of our demos on [Replit](https://replit.com/@swupjs) or [CodeSandbox](https://codesandbox.io/p/devbox/swup-4-minimal-reproduction-template-n6kgnp) and try to reproduce the problem. **A minimal reproduction is required** so that others can help debug your issue. If a report is too vague it may be closed. [Learn more about minimal reproductions](https://swup.js.org/other/minimal-reproductions/)
     validations:
       required: true
   - type: checkboxes
