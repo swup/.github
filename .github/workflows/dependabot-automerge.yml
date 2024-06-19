@@ -4,10 +4,6 @@ name: Automerge Dependabot PRs
 
 on:
   workflow_call:
-    inputs:
-      github-token:
-        required: true
-        type: string
 
 jobs:
   auto-merge:
@@ -20,4 +16,4 @@ jobs:
         uses: ahmadnassri/action-dependabot-auto-merge@v2
         with:
           target: minor
-          github-token: ${{ inputs.github-token }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
