@@ -4,13 +4,20 @@ name: Automerge Dependabot PRs
 
 on:
   workflow_call:
+    inputs:
+      github-token:
+        required: true
+        type: string
 
 jobs:
   auto-merge:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: ahmadnassri/action-dependabot-auto-merge@v2
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Automerge Dependabot PRs
+        uses: ahmadnassri/action-dependabot-auto-merge@v2
         with:
           target: minor
-          github-token: ${{ secrets.GH_TOKEN }}
+          github-token: ${{ inputs.github-token }}
