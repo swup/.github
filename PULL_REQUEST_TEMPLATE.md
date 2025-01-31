@@ -16,7 +16,7 @@ Clear and concise description of the proposed changes, as well as a convincing r
 Make sure the PR fulfills as many of the following requirements as possible
 -->
 
-- [ ] The PR is submitted to the `master` branch
+- [ ] The PR is submitted to the `main` branch
 - [ ] The code was linted before pushing (`npm run lint`)
 - [ ] All tests are passing (`npm run test`)
 - [ ] New or updated tests are included
